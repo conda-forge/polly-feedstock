@@ -1,4 +1,4 @@
-{% set version = "17.0.2" %}
+{% set version = "17.0.5" %}
 {% set major_ver = version.split(".")[0] %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/llvm/llvm-project/releases/download/llvmorg-{{ version.replace(".rc", "-rc") }}/llvm-project-{{ version.replace(".rc", "rc") }}.src.tar.xz
-  sha256: 351562b14d42fcefcbf00cc1f327680a1062bbbf67a1e1ca6acb64c473b06394
+  sha256: 95d7eff82945cf05c16a1851d7b391fc2da726b87c1138125e3b6e4d300ab834
 
 build:
   number: 0
